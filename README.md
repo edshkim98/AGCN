@@ -1,10 +1,10 @@
 # AGCN
-Adversarial Graph Convolutional Network for 3D point cloud segmentation<br />
+**Adversarial Graph Convolutional Network for 3D point cloud segmentation**<br />
 
-Key Contributions:<br />
-1. Proposed GCN with adversarial learning scheme in 3D point cloud segmentation
-2. Utilized Embedding loss for adversarial learning
-3. Proposed an effective way for 3D point cloud convolution<br />
+**Key Contributions:**<br />
+1. We propose a novel neural network approach for 3D point cloud segmentation by using an adversarial learning scheme, where unlike previousworks, we present an embedding L2 loss as an adversarial loss to provide more informative feedback to segmentation network.
+2. We introduce GeoEdgeConv as local feature aggregation method, which helps our network to efficiently and effectively learn complex local geometric structures.
+3. We propose a smaller AGCN, AGCN-S, that achieves the smallest time complexity andsecond lowest space complexity compared to the SOTA, but still outperforming them.<br />
 
 # Results<br />
 **Instance Average IoU** <br />
